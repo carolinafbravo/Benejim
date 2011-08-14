@@ -1,0 +1,99 @@
+body{
+	background-color: white;
+}
+table{
+ border: 0;
+ border-spacing: 0;
+ border-collapse: collapse;
+}
+
+
+#main{
+	width: 980px;
+	border: 1px solid rgb(255,181,12);
+	border-collapse: collapse;
+}
+tr, td{
+	padding: 0;
+	margin: 0;
+}
+
+#bandeau{
+	width: 980px;
+	height: 100px;
+	border: 0;
+}
+
+#content-row{
+	min-height: 500px;
+}
+
+#left-col{
+	width: 225px;
+	background-color: rgb(255,181,12);
+}
+
+#right-col{
+ width: 752px;
+ text-align: center;
+}
+
+#left-col, #right-col{
+	vertical-align: top;
+}
+
+h3{
+	text-align: center
+}
+
+.icon{
+	width: 16px;
+	height: 16px;
+	border: 0;
+}
+
+ul{
+list-style: none;
+padding-left:1em; 
+
+}
+
+#menu{
+	width: 90%;
+	background-color: white;
+	margin-left:0.5em; 
+	padding-top: 0.5em;
+	padding-bottom: 1em; 
+	margin-top: 1em;
+}
+
+#content-table {
+	margin: auto;
+	padding: auto;
+	margin-top: 2em;
+
+}
+#content-table td{
+	padding-left: 2em;
+
+}
+
+#right-col{
+padding-top: 2em;
+padding-bottom: 2em;
+	text-align: center;
+}
+
+form{
+margin: auto;
+padding: auto;
+text-align: left;
+padding-left: 200px;
+padding-top: 2em;
+padding-bottom: 2em;
+}
+
+#content-row{
+	padding-bottom: 2em;
+
+}
